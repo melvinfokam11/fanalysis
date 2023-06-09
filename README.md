@@ -1,52 +1,39 @@
-# fanalysis
+# TP DE COMPILATION
 
-fanalysis is a Python module for Factorial Analysis distributed under the 3-Clause BSD license.
+graphiz,matplolib sont des bibliotheques pour les representations graphiques.
 
-With this fanalysis package, you can perform:
-- Simple Correspondence Analysis
-- Multiple Correspondence Analysis
-- Principal Components Analysis
+avec les automates nous pouvons realiser les taches suivantes :
+- analyse lexicale
+- reconnaissance des mots 
+- reconnaissance des commentaires
 
-Those statistical methods can be used in two ways:
-- as descriptive methods ("datamining approach")
-- as reduction methods in scikit-learn pipelines ("machine learning approach")
+nous pouvons implementer les outils et les automates  nous pouvons juste definir des fonctions 
 
 ## Installation
 
-### Dependencies
+### Dependance
 
-fanalysis requires:
+pour ce travail nous avons besoin de :
 
     Python 3
     NumPy >= 1.11.0
     Matplotlib >= 2.0.0
-    Scikit-learn >= 0.18.0
     Pandas >= 0.19.0
+    re
 
 ### User installation
 
 You can install fanalysis using pip:
 
-    pip install fanalysis
+    pip install  Matplotlib >= 2.0.0
 
-## Running the tests
-
-After installation, you can launch the test suite from outside the source directory:
-
-    python -m unittest
-
-The philosophy of the unit tests consists in comparing the outputs of fanalysis (with various combinations of parameters) with the outputs of the R FactoMineR package.
+## execution des  tests
+vous pouvez exxecuter le fichier main.py 
 
 ## Documentation
 
-The docstring is written in english.
 
-Tutorials are available in french:
 
-    https://github.com/OlivierGarciaDev/fanalysis/blob/master/doc/ca_tutorial.ipynb
-    https://github.com/OlivierGarciaDev/fanalysis/blob/master/doc/mca_tutorial.ipynb
-    https://github.com/OlivierGarciaDev/fanalysis/blob/master/doc/pca_tutorial.ipynb
+## Auteur
 
-## Author
-
-Olivier Garcia (o.garcia.dev@gmail.com)
+groupe 1
