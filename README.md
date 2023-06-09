@@ -36,4 +36,4 @@ vous pouvez exxecuter le fichier main.py
 
 ## Auteur
 
-groupe 1
+groupe 18
